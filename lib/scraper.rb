@@ -44,7 +44,8 @@ class Scraper
     end 
     socal[:profile-quote] = profile-quote if profile-quote
     social[:bio] = biography if biography
-    end
+    social
+  end
 
 end
 
