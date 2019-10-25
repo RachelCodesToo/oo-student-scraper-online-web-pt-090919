@@ -40,7 +40,7 @@ class Scraper
               social[:twitter] = social_platform.attribute('href').value
               elsif social_platform.attribute('href').value.include?(blog_name)
                 social[:blog] = social_platform.attribute('href').value
-    end
+      end
     
   end
 
