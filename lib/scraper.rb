@@ -15,7 +15,7 @@ class Scraper
     
     student_cards. each do |card|
       students << {
-        :name => card.css('div.card-text-container h4.student-nameAaron Enser</h4>
+        :name => card.css('div.card-text-container h4.student-name'Aaron Enser</h4>
                 <p class="student-location">Scottsdale, AZ</p>
               </div>')
       }
