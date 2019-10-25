@@ -41,7 +41,7 @@ class Scraper
                 social[:blog] = social_platform.attribute('href').value
       end
     end 
-    socal[:profile_quote] = profile_quote if profile_quote
+    social[:profile_quote] = profile_quote if profile_quote
     social[:bio] = biography if biography
     social
   end
