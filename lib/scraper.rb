@@ -42,7 +42,7 @@ class Scraper
                 social[:blog] = social_platform.attribute('href').value
       end
     end 
-    
+    socal
   end
 
 end
