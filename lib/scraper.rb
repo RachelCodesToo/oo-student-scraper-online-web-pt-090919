@@ -41,6 +41,7 @@ class Scraper
               elsif social_platform.attribute('href').value.include?(blog_name)
                 social[:blog] = social_platform.attribute('href').value
       end
+    end 
     
   end
 
