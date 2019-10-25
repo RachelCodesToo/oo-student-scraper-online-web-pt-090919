@@ -25,7 +25,7 @@ class Scraper
     
     social_media_links = doc.css('div.social-icon-container a')
     profile_quote = doc.css("div.vitals-text-container .profile-quote").text
-    biography = doc.css('div.description-holder p').text
+    biography = doc.css("div.description-holder p").text
     
     social = {}
     
