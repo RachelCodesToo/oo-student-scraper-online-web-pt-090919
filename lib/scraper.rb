@@ -1,8 +1,6 @@
 require 'open-uri'
 require 'pry'
 
-html = open(https://learn-co-curriculum.github.io/student-scraper-test-page/)
-
 class Scraper
   
     
