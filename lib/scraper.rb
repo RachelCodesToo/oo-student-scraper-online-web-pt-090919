@@ -43,7 +43,7 @@ class Scraper
       end
     end 
     socal[:profile-quote] = profile-quote if profile-quote
-    
+    social
   end
 
 end
