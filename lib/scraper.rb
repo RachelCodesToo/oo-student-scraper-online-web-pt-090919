@@ -19,6 +19,9 @@ class Scraper
         :location => card.css('div.card-text-container p.student-location').text
         :profile_url => card.css('a').attribute('href').value
       }
+    end 
+    students
+    
   end
 
   def self.scrape_profile_page(profile_url)
